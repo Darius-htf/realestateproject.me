@@ -8,15 +8,15 @@ import MobNav from "../Components/Navbars/MobNav";
 
 function RootLayout() {
   return (
-    <div className="flex w-full flex-col items-center justify-center">
-      <header className="bg-secondary flex w-full justify-center px-5">
+    <div className="ROOTLAYOUT flex h-full w-full flex-col items-center justify-between bg-secondary">
+      <header className="flex w-full justify-center px-5">
         <DeskNav />
         <MobNav />
       </header>
-      <main>
+      <main className="flex w-full max-w-[1280px] flex-col items-center justify-center px-5">
         <Outlet />
       </main>
-      <footer className="bg-secondary flex w-full justify-center px-5">
+      <footer className="flex w-full justify-center px-5">
         <Footer />
       </footer>
     </div>
