@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "src/assets/Images/PopularResidences/1.png",
+    "location": "San Francisco, California",
+    "roomCount": 4,
+    "squareFeet": "3,500 sq ft",
+    "price": "$2,500,000"
+  },
+  {
+    "id": 2,
+    "img": "src/assets/Images/PopularResidences/2.png",
+    "location": "Beverly Hills, California",
+    "roomCount": 3,
+    "squareFeet": "1,500 sq ft",
+    "price": "$850,000"
+  },
+  {
+    "id": 3,
+    "img": "src/assets/Images/PopularResidences/3.png",
+    "location": "Palo Alto, California",
+    "roomCount": 6,
+    "squareFeet": "4,000 sq ft",
+    "price": "$3,700,000"
+  }
+]

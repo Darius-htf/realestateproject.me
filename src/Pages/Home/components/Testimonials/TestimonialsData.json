@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "placeImage": "src/assets/Images/Testimonials/1.png",
+    "name": "Sarah Nguyen",
+    "profileImage": "src/assets/Images/Testimonials/Users/1.png",
+    "location": "San Francisco",
+    "rating": "5.0",
+    "comment": "Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched."
+  },
+  {
+    "id": 2,
+    "placeImage": "src/assets/Images/Testimonials/2.png",
+    "name": "Michael Rodriguez",
+    "profileImage": "src/assets/Images/Testimonials/Users/2.png",
+    "location": "San Diego",
+    "rating": "4.5",
+    "comment": "I had a fantastic experience working with Dwello. Their expertise and personalized service exceeded my expectations. I found my dream home quickly and smoothly. Highly recommended!"
+  },
+  {
+    "id": 3,
+    "placeImage": "src/assets/Images/Testimonials/3.png",
+    "name": "Emily Johnson",
+    "profileImage": "src/assets/Images/Testimonials/Users/3.png",
+    "location": "Los Angeles",
+    "rating": "5.0",
+    "comment": "Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!"
+  },
+  {
+    "id": 4,
+    "placeImage": "src/assets/Images/Testimonials/1.png",
+    "name": "Sarah Nguyen",
+    "profileImage": "src/assets/Images/Testimonials/Users/1.png",
+    "location": "San Francisco",
+    "rating": "5.0",
+    "comment": "Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched."
+  }
+]
