@@ -1,9 +1,10 @@
 import React from "react";
 
-function Button({ maxWidth, text, height }) {
+function Button({ type, maxWidth, text, height }) {
   return (
     <button
-      className={`flex w-full items-center justify-center rounded-lg bg-accent px-5 py-2 text-base font-bold text-primary max-w-[${maxWidth}] h-[${height}]`}
+      type={type}
+      className={`flex w-full items-center justify-center rounded-lg bg-accent px-5 py-2 text-base font-bold text-primary ${maxWidth} ${height}`}
     >
       {text}
     </button>

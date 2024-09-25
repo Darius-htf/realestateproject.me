@@ -4,6 +4,7 @@ import WeHelpYou from "./components/WeHelpYou/WeHelpYou";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import PopularResidences from "./components/PopularResidences/PopularResidences";
 import Testimonials from "./components/Testimonials/Testimonials";
+import NewsLetter from "./components/NewsLetter/NewsLetter";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <WhyChooseUs />
       <PopularResidences />
       <Testimonials />
+      <NewsLetter />
     </div>
   );
 }

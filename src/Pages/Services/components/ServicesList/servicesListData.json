@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Property Listings",
+    "description": "A comprehensive database of properties for sale or rent, including detailed descriptions, photos, and virtual tours."
+  },
+  {
+    "id": 2,
+    "name": "Search and Filtering",
+    "description": "A robust search functionality that allows users to filter properties by location, price range, property type, amenities, and other criteria to find their ideal property."
+  },
+  {
+    "id": 3,
+    "name": "Agent Directory",
+    "description": "A directory of licensed real estate agents and brokers, allowing users to find and contact local experts who can assist with buying, selling, or renting properties."
+  },
+  {
+    "id": 4,
+    "name": "Mortgage Calculators and Financing Tools",
+    "description": "Interactive tools that help users estimate mortgage payments, calculate affordability, and explore financing options, making it easier to navigate the home buying process."
+  },
+  {
+    "id": 5,
+    "name": "Neighborhood Insights and Community Information",
+    "description": "Detailed information about neighborhoods, including local schools, transportation, shopping, and community amenities, to help users make informed decisions about their next home."
+  }
+]
