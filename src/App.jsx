@@ -1,4 +1,5 @@
 import "./App.css";
+import "flowbite";
 
 // Layouts
 import RootLayout from "./Layouts/RootLayout";

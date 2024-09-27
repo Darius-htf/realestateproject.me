@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Ava Morales",
+    "title": "Realtor & Team Lead",
+    "bio": "With over 10 years of experience in the real estate industry, Ava has established herself as a trusted and knowledgeable Realtor in the local market. Her passion for helping people find their dream homes has earned her a reputation for being dedicated, hardworking, and always putting her clients first. Ava specializes in residential sales, luxury properties, and relocation services. In her free time, she enjoys hiking and trying out new restaurants.",
+    "img": "src/assets/Images/Agents/1.jpg"
+  },
+  {
+    "name": "Liam Chen",
+    "title": "Realtor & Marketing Specialist",
+    "bio": "As a tech-savvy Realtor, Liam brings a unique perspective to the real estate industry. With a background in marketing, he understands the importance of showcasing properties in their best light. Liam's expertise in social media marketing, photography, and virtual tours has helped his clients' properties stand out in a competitive market. When he's not working, Liam loves playing basketball and trying out new craft beers.",
+    "img": "src/assets/Images/Agents/2.jpg"
+  },
+  {
+    "name": "Clarkson Patel",
+    "title": "Realtor & Community Expert",
+    "bio": "Emily's extensive knowledge of the local community has made her a go-to Realtor for those looking to buy or sell in the area. With over 5 years of experience, she has developed a deep understanding of the local market trends and has built a network of trusted contacts. Emily specializes in residential sales, first-time homebuyers, and community development. In her free time, she enjoys volunteering at local animal shelters and practicing yoga.",
+    "img": "src/assets/Images/Agents/3.jpg"
+  },
+  {
+    "name": "Julian Sanchez",
+    "title": "Realtor & Luxury Specialist",
+    "bio": "With a background in luxury sales, Julian has a keen eye for detail and a deep understanding of what high-end clients are looking for in a property. His expertise in luxury marketing, staging, and negotiation has earned him a reputation for being one of the top luxury Realtors in the area. When he's not working, Julian enjoys traveling and trying out new fine dining restaurants.",
+    "img": "src/assets/Images/Agents/4.jpg"
+  },
+  {
+    "name": "Sophia Lee",
+    "title": "Realtor & Relocation Specialist",
+    "bio": "Sophia's experience in relocation services has given her a unique understanding of the challenges that come with moving to a new area. She specializes in helping families and individuals relocate to the local area, providing them with valuable insights and resources to make their transition as smooth as possible. In her free time, Sophia enjoys hiking and trying out new recipes in the kitchen.",
+    "img": "src/assets/Images/Agents/5.jpg"
+  }
+]
