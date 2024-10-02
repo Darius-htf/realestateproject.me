@@ -17,11 +17,13 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
+import SignUp from "./Pages/SignUp/SignUp";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
+      <Route path="signup" element={<SignUp />} />
       <Route path="s" element={<Services />} />
       <Route path="a" element={<Agents />} />
       <Route path="c" element={<Contact />} />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Button from "../Button/Button";
 
@@ -6,14 +6,17 @@ import Button from "../Button/Button";
 import Logo from "@/assets/Logo/logo.png";
 import Search from "@/assets/Icons/search.png";
 import User from "@/assets/Icons/user.png";
+import SearchBar from "../SearchBar/SearchBar";
 
 function DeskNav() {
+  const [showSearchBar, setShowSearchBar] = useState(false);
+
   return (
-    <nav className="desk__nav hidden w-full max-w-[1280px] items-center justify-between gap-5 py-5 lg:flex">
+    <nav className="desk__nav relative hidden w-full max-w-[1280px] items-center justify-between gap-5 py-5 lg:flex">
       <div className="nav__logo w-full">
         <img src={Logo} alt="logo" />
       </div>
-      <ul className="nav__links text-accent flex w-full items-center justify-between gap-5 font-bold">
+      <ul className="nav__links flex w-full items-center justify-between gap-5 font-bold text-accent">
         <li>
           <NavLink className="relative" to="/">
             Home
@@ -37,9 +40,9 @@ function DeskNav() {
       </ul>
       <div className="nav__actions flex w-full items-center justify-end gap-5">
         <div className="nav__icons flex items-center justify-between gap-2">
-          <Link>
+          <button onClick={() => setShowSearchBar(true)}>
             <img className="size-6" src={Search} alt="search" />
-          </Link>
+          </button>
           <Link>
             <img className="size-6" src={User} alt="user" />
           </Link>
@@ -48,6 +51,7 @@ function DeskNav() {
           <Button text={"Sign up"} />
         </Link>
       </div>
+      {showSearchBar && <SearchBar />}
     </nav>
   );
 }
