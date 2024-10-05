@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "@/Components/ProductCard/ProductCard";
+import ProductCard from "#/Components/ProductCard/ProductCard";
 
 // Data
 import PopularResidencesData from "./popularResidences.json";

@@ -2,7 +2,7 @@ import React from "react";
 
 // Data
 import WhyChooseUsData from "./WhyChooseUsData.json";
-import SmallCard from "@/Components/SmallCards/SmallCard";
+import SmallCard from "#/Components/SmallCards/SmallCard";
 
 function WhyChooseUs() {
   return (

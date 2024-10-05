@@ -13,9 +13,6 @@ export default {
         accent: "#2B1B12",
         card: "#DDC7BB",
       },
-      backgroundImage: {
-        hero: "url('src/assets/Images/Hero/hero image 1.png')",
-      },
       fontSize: {
         "clamp-title": "clamp(2.5rem,4vw,4rem)",
         "clamp-para": "clamp(1rem,4vw,1.5rem)",

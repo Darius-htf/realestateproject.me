@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "src/assets/Images/PopularResidences/1.png",
+    "img": "@/assets/Images/PopularResidences/1.png",
     "location": "San Francisco, California",
     "roomCount": 4,
     "squareFeet": "3,500 sq ft",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "img": "src/assets/Images/PopularResidences/2.png",
+    "img": "@/assets/Images/PopularResidences/2.png",
     "location": "Beverly Hills, California",
     "roomCount": 3,
     "squareFeet": "1,500 sq ft",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "img": "src/assets/Images/PopularResidences/3.png",
+    "img": "@/assets/Images/PopularResidences/3.png",
     "location": "Palo Alto, California",
     "roomCount": 6,
     "squareFeet": "4,000 sq ft",

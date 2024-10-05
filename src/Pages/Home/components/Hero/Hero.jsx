@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@/Components/Button/Button";
+import Button from "#/Components/Button/Button";
 
 function Hero() {
   return (
@@ -14,7 +14,7 @@ function Hero() {
         </p>
         <Button height="58px" maxWidth="170px" text="Sign up" />
       </div>
-      <div className="HERO_IMAGE h-[906px] bg-hero w-full lg:w-2/3 bg-contain bg-center lg:bg-right bg-no-repeat"></div>
+      {/* <div className="HERO_IMAGE h-[906px] bg-hero w-full lg:w-2/3 bg-contain bg-center lg:bg-right bg-no-repeat"></div> */}
     </div>
   );
 }

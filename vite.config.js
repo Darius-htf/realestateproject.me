@@ -1,15 +1,40 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      "@": "/src", // alias for the src directory
+  // Configuration for development mode
+  dev: {
+    build: {
+      outDir: "build-dev",
+    },
+    server: {
+      port: 3000,
+      open: true,
     },
   },
+
+  // Configuration for production mode
   build: {
-    outDir: "dist/production"
-  }
+    outDir: "build-prod",
+    minify: true,
+    sourcemap: false,
+  },
+
+  // Shared configuration for both modes
+  plugins: [react()],
+
+  // Resolve aliases for imports
+  resolve: {
+    alias: {
+      "@": "/public",
+      "#": "/src"
+    },
+  },
+
+  // CSS configuration
+  css: {
+    modules: {
+      localsConvention: "camelCase",
+    },
+  },
 });

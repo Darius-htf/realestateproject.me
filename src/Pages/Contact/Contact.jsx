@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useForm } from "react-hook-form";
-import FormAlert from "@/Components/FormAlert/FormAlert";
+import { useForm } from "react-hook-form"
+import FormAlert from "#/Components/FormAlert/FormAlert.jsx"
+
 
 // Assets
 import discord from "@/assets/Icons/Contact/discord.png";

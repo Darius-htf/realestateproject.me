@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef } from "react";
-import Testimonial from "@/Components/Testimonial/Testimonial";
+import Testimonial from "#/Components/Testimonial/Testimonial";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
