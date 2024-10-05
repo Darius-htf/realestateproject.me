@@ -9,4 +9,7 @@ export default defineConfig({
       "@": "/src", // alias for the src directory
     },
   },
+  build: {
+    outDir: "dist/production"
+  }
 });
